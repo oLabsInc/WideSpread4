@@ -96,7 +96,26 @@ body {
     font-weight: bold;
 }
 
+.spread-section-body h6 {
+    margin-top: 2rem;
+    color: lightskyblue;
+    text-align: center;
+    font-size: 1.5rem;
+}
 .spread-section-body p {
     margin-top: 1rem;
     padding: 0.5rem;
+}
+
+.spread-section-body img {
+    max-width: 100%;
+    max-height: calc(100vh - 2rem);
+    border: solid 1px transparent;
+    margin: 1rem;
+    border-radius: 1rem;
+    transition: ease-in-out 500ms;
+}
+.spread-section-body img:hover {
+    border: solid 1px lightskyblue;
+
 }
