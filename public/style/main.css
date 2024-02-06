@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #000;
+    /* background-color: red; */
+}
+body {
+}
+
+.spread-2d {
+    background-color: #111111b6;
+    /* background-color: transparent; */
+    backdrop-filter: blur(4px);
+    color: #eee;
+    box-shadow: inset 0 0 25px lightskyblue;
+    border: solid 0.25rem transparent;
+    width: calc(100vw - 0.5rem);
+    height: calc(100vh - 0.5rem);
+    border-radius: 1rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.75rem;
+    overflow-y: auto;
+}
+.spread-header {
+    /* background-color: lime; */
+    width: 90%;
+    margin-inline: auto;
+    border: solid 1px rgba(135, 206, 250, 0.658);
+    padding: 0.25rem;
+    border-radius: 1rem;
+    background-color: #3333337e;
+}
+.spread-header h1 {
+    text-align: center;
+}
+
+.spread-menu {
+    border-top : solid 1px lightskyblue;
+    border-bottom : solid 1px lightskyblue;
+    border-radius: 0.25rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    margin-inline: auto;
+    padding: 0.5rem;
+    background-color: #3333337e;
+}
+.spread-menu > nav > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+.spread-menu > nav > ul > li {
+    list-style: none;
+    border-bottom: solid 1px lightskyblue;
+
+}
+.spread-menu > nav > ul > li > a {
+    color: lightskyblue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+
+.spread-section {
+    padding: 1rem;
+    margin-top: 3rem;
+}
+.spread-section-header {
+}
+.spread-section-header h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.spread-section-body {
+    margin-top: 2rem;
+}
+
+.spread-section-body h5 {
+    margin-top: 2.5rem;
+    font-size: 1.25rem;
+    text-align: center;
+    color: lightskyblue;
+    font-weight: bold;
+}
+
+.spread-section-body p {
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
